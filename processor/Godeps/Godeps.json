@@ -1,16 +1,16 @@
 {
-	"ImportPath": "chaos-galago/processor",
+	"ImportPath": "github.com/FidelityInternational/chaos-galago/processor",
 	"GoVersion": "go1.5",
 	"Packages": [
 		"./..."
 	],
 	"Deps": [
 		{
-			"ImportPath": "chaos-galago/shared/model",
+			"ImportPath": "github.com/FidelityInternational/chaos-galago/shared/model",
 			"Rev": "ed76e4d002c288574aeccc67c06e17570078dac3"
 		},
 		{
-			"ImportPath": "chaos-galago/shared/utils",
+			"ImportPath": "github.com/FidelityInternational/chaos-galago/shared/utils",
 			"Rev": "ed76e4d002c288574aeccc67c06e17570078dac3"
 		},
 		{

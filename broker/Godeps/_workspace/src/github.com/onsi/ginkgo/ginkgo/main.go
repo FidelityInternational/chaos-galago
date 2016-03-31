@@ -124,8 +124,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/testsuite"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/testsuite"
 )
 
 const greenColor = "\x1b[32m"

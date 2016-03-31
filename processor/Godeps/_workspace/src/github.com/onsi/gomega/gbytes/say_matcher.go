@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/format"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/format"
 )
 
 //Objects satisfying the BufferProvider can be used with the Say matcher.

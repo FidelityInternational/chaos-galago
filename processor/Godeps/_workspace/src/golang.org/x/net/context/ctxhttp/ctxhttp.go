@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 func nop() {}

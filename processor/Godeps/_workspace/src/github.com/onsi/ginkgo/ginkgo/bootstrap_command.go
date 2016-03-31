@@ -11,7 +11,7 @@ import (
 
 	"go/build"
 
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/nodot"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/nodot"
 )
 
 func BuildBootstrapCommand() *Command {

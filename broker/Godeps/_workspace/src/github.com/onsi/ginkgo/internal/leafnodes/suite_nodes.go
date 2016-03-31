@@ -1,8 +1,8 @@
 package leafnodes
 
 import (
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/failer"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/failer"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 	"time"
 )
 

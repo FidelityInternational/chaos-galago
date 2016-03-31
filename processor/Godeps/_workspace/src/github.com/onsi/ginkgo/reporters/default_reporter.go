@@ -8,9 +8,9 @@ These are documented [here](http://onsi.github.io/ginkgo/#running_tests)
 package reporters
 
 import (
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters/stenographer"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters/stenographer"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 )
 
 type DefaultReporter struct {

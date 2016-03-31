@@ -7,12 +7,12 @@ import (
 	"sync"
 	"syscall"
 
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/leafnodes"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/spec"
-	Writer "chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/writer"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/leafnodes"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/spec"
+	Writer "github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/writer"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 
 	"time"
 )

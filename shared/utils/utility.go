@@ -1,10 +1,10 @@
 package sharedUtils
 
 import (
-	"chaos-galago/shared/model"
 	"database/sql"
 	"encoding/json"
 	"fmt"
+	"github.com/FidelityInternational/chaos-galago/shared/model"
 	// sql Driver
 	_ "github.com/go-sql-driver/mysql"
 	"os"

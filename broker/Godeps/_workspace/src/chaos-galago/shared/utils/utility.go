@@ -1,11 +1,11 @@
 package sharedUtils
 
 import (
-	"chaos-galago/broker/Godeps/_workspace/src/chaos-galago/shared/model"
-	_ "chaos-galago/broker/Godeps/_workspace/src/github.com/go-sql-driver/mysql"
 	"database/sql"
 	"encoding/json"
 	"fmt"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/chaos-galago/shared/model"
+	_ "github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/go-sql-driver/mysql"
 	"os"
 )
 

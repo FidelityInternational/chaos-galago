@@ -6,8 +6,8 @@ import (
 	"io"
 	"net/http"
 
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 )
 
 //An interface to net/http's client to allow the injection of fakes under test

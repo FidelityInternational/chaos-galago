@@ -20,16 +20,16 @@ import (
 	"strings"
 	"time"
 
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/codelocation"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/failer"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/remote"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/suite"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/testingtproxy"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/writer"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters/stenographer"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/codelocation"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/failer"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/remote"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/suite"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/testingtproxy"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/writer"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters/stenographer"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 )
 
 const GINKGO_VERSION = config.VERSION

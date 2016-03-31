@@ -8,10 +8,10 @@ This is used, primarily, to enable streaming parallel test output but has, in pr
 package remote
 
 import (
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 	"encoding/json"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 	"io/ioutil"
 	"net"
 	"net/http"

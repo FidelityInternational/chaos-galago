@@ -2,9 +2,9 @@ package matchers
 
 import (
 	"bytes"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/format"
 	"encoding/json"
 	"fmt"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/format"
 	"reflect"
 )
 

@@ -5,10 +5,10 @@ import (
 	"runtime"
 	"sync"
 
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/interrupthandler"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/testrunner"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/testsuite"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/interrupthandler"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/testrunner"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/testsuite"
 )
 
 type compilationInput struct {

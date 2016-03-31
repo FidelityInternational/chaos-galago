@@ -18,9 +18,9 @@ import (
 	"net/url"
 	"strings"
 
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/net/context"
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2"
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2/internal"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2/internal"
 )
 
 // tokenFromInternal maps an *internal.Token struct into

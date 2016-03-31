@@ -1,6 +1,6 @@
 package edge
 
-import . "chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/matchers/support/goraph/node"
+import . "github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/matchers/support/goraph/node"
 
 type Edge struct {
 	Node1 Node

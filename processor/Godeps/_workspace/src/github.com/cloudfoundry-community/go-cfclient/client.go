@@ -2,10 +2,10 @@ package cfclient
 
 import (
 	"bytes"
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/net/context"
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2"
 	"crypto/tls"
 	"encoding/json"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2"
 	"io"
 	"log"
 	"net/http"

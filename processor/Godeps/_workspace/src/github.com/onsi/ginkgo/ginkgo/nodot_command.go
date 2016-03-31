@@ -2,8 +2,8 @@ package main
 
 import (
 	"bufio"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/nodot"
 	"flag"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/nodot"
 	"io/ioutil"
 	"os"
 	"path/filepath"

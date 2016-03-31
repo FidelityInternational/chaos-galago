@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"strings"
 
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/testsuite"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/testsuite"
 )
 
 type Notifier struct {

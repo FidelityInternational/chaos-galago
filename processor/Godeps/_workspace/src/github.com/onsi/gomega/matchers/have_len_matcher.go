@@ -1,8 +1,8 @@
 package matchers
 
 import (
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/format"
 	"fmt"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/format"
 )
 
 type HaveLenMatcher struct {

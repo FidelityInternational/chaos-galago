@@ -1,12 +1,12 @@
 package main
 
 import (
-	conf "chaos-galago/broker/config"
-	utils "chaos-galago/broker/utils"
-	webs "chaos-galago/broker/web_server"
 	"database/sql"
 	"flag"
 	"fmt"
+	conf "github.com/FidelityInternational/chaos-galago/broker/config"
+	utils "github.com/FidelityInternational/chaos-galago/broker/utils"
+	webs "github.com/FidelityInternational/chaos-galago/broker/web_server"
 	"net/http"
 	"os"
 )

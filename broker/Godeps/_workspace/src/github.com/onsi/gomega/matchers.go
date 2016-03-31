@@ -3,8 +3,8 @@ package gomega
 import (
 	"time"
 
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/matchers"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/types"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/matchers"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/types"
 )
 
 //Equal uses reflect.DeepEqual to compare actual with expected.  Equal is strict about

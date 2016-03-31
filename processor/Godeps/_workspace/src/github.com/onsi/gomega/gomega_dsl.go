@@ -18,10 +18,10 @@ import (
 	"reflect"
 	"time"
 
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/internal/assertion"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/internal/asyncassertion"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/internal/testingtsupport"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/types"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/internal/assertion"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/internal/asyncassertion"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/internal/testingtsupport"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/types"
 )
 
 const GOMEGA_VERSION = "1.0"

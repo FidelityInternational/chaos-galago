@@ -9,9 +9,9 @@ http://confluence.jetbrains.com/display/TCD7/Build+Script+Interaction+with+TeamC
 package reporters
 
 import (
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 	"fmt"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 	"io"
 	"strings"
 )

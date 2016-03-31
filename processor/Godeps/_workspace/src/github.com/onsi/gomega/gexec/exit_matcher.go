@@ -3,7 +3,7 @@ package gexec
 import (
 	"fmt"
 
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/format"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/format"
 )
 
 /*

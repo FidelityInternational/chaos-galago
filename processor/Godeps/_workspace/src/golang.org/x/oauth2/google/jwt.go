@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"time"
 
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2"
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2/internal"
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2/jws"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2/internal"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2/jws"
 )
 
 // JWTAccessTokenSourceFromJSON uses a Google Developers service account JSON

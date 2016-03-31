@@ -5,7 +5,7 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/types"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/types"
 )
 
 type gomegaTestingT interface {

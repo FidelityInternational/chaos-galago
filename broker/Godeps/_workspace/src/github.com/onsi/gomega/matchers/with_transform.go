@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/internal/oraclematcher"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/types"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/internal/oraclematcher"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/types"
 )
 
 type WithTransformMatcher struct {

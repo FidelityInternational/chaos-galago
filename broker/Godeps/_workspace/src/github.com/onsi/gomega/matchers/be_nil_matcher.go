@@ -1,6 +1,6 @@
 package matchers
 
-import "chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/format"
+import "github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/format"
 
 type BeNilMatcher struct {
 }

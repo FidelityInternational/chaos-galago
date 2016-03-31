@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/net/context"
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2"
 )
 
 // Set at init time by appenginevm_hook.go. If true, we are on App Engine Managed VMs.

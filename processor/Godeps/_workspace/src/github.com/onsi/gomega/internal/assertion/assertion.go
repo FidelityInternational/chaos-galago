@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/types"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/types"
 )
 
 type Assertion struct {
