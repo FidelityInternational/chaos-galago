@@ -11,7 +11,7 @@ import (
 	"path"
 	"regexp"
 
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/gorilla/context"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/gorilla/context"
 )
 
 // NewRouter returns a new router instance.

@@ -6,7 +6,7 @@ import (
 
 	"sync"
 
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 )
 
 type benchmarker struct {

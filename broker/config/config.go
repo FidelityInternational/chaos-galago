@@ -1,8 +1,8 @@
 package config
 
 import (
-	"chaos-galago/broker/utils"
 	"encoding/json"
+	"github.com/FidelityInternational/chaos-galago/broker/utils"
 	"io/ioutil"
 )
 

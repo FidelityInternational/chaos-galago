@@ -4,7 +4,7 @@ import (
 	"flag"
 	"runtime"
 
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
 )
 
 type RunWatchAndBuildCommandFlags struct {

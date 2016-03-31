@@ -1,16 +1,16 @@
 {
-	"ImportPath": "chaos-galago/broker",
+	"ImportPath": "github.com/FidelityInternational/chaos-galago/broker",
 	"GoVersion": "go1.5",
 	"Packages": [
 		"./..."
 	],
 	"Deps": [
 		{
-			"ImportPath": "chaos-galago/shared/model",
+			"ImportPath": "github.com/FidelityInternational/chaos-galago/shared/model",
 			"Rev": "9cfd5bfa84cf4ff935824771fa84896e7b549722"
 		},
 		{
-			"ImportPath": "chaos-galago/shared/utils",
+			"ImportPath": "github.com/FidelityInternational/chaos-galago/shared/utils",
 			"Rev": "9cfd5bfa84cf4ff935824771fa84896e7b549722"
 		},
 		{

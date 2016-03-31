@@ -14,11 +14,11 @@ import (
 	"syscall"
 	"time"
 
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/testsuite"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/remote"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters/stenographer"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/testsuite"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/remote"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters/stenographer"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 )
 
 type TestRunner struct {

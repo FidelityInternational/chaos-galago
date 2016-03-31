@@ -1,5 +1,5 @@
 {
-	"ImportPath": "chaos-galago/shared",
+	"ImportPath": "github.com/FidelityInternational/chaos-galago/shared",
 	"GoVersion": "go1.5",
 	"Deps": []
 }

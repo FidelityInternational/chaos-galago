@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"strings"
 
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 )
 
 const defaultStyle = "\x1b[0m"

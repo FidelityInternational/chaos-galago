@@ -11,8 +11,8 @@ import (
 	"sync"
 	"syscall"
 
-	. "chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/gbytes"
+	. "github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/gbytes"
 )
 
 const INVALID_EXIT_CODE = 254

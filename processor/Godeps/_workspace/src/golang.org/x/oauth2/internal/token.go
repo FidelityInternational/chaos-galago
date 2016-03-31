@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 // Token represents the crendentials used to authorize

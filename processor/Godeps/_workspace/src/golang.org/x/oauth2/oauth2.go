@@ -15,8 +15,8 @@ import (
 	"strings"
 	"sync"
 
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/net/context"
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2/internal"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2/internal"
 )
 
 // NoContext is the default context you should supply if not using

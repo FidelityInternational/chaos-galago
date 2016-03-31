@@ -9,10 +9,10 @@ For usage instructions: http://onsi.github.io/ginkgo/#generating_junit_xml_outpu
 package reporters
 
 import (
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 	"encoding/xml"
 	"fmt"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 	"os"
 	"strings"
 )

@@ -2,9 +2,9 @@ package leafnodes
 
 import (
 	"bytes"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/failer"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 	"encoding/json"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/failer"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 	"io/ioutil"
 	"net/http"
 	"reflect"

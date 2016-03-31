@@ -116,7 +116,7 @@ import (
 	"strings"
 	"sync"
 
-	. "chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega"
+	. "github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega"
 )
 
 func new() *Server {

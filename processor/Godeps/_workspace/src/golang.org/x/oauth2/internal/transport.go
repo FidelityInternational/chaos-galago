@@ -8,7 +8,7 @@ package internal
 import (
 	"net/http"
 
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 // HTTPClient is the context key to use with golang.org/x/net/context's

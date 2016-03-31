@@ -1,9 +1,9 @@
 package main
 
 import (
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/convert"
 	"flag"
 	"fmt"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/convert"
 	"os"
 )
 

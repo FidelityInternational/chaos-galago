@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"net/http"
 
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/gorilla/mux"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/gorilla/mux"
 
-	"chaos-galago/broker/Godeps/_workspace/src/chaos-galago/shared/utils"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/chaos-galago/shared/utils"
 	// mysql driver
-	_ "chaos-galago/broker/Godeps/_workspace/src/github.com/go-sql-driver/mysql"
-	"chaos-galago/broker/config"
-	"chaos-galago/broker/utils"
 	"database/sql"
+	_ "github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/go-sql-driver/mysql"
+	"github.com/FidelityInternational/chaos-galago/broker/config"
+	"github.com/FidelityInternational/chaos-galago/broker/utils"
 )
 
 var (

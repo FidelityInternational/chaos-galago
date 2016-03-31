@@ -3,9 +3,9 @@ package matchers
 import (
 	"fmt"
 
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/format"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/internal/oraclematcher"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/types"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/format"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/internal/oraclematcher"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/types"
 )
 
 type OrMatcher struct {

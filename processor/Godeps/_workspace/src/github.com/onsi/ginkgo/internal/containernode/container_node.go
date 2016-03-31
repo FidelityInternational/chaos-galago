@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"sort"
 
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/leafnodes"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/leafnodes"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 )
 
 type subjectOrContainerNode struct {

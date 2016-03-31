@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/interrupthandler"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/testrunner"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/interrupthandler"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/ginkgo/testrunner"
 )
 
 func BuildBuildCommand() *Command {

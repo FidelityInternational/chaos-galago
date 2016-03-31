@@ -1,10 +1,10 @@
 package leafnodes
 
 import (
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/codelocation"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/failer"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 	"fmt"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/codelocation"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/failer"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 	"reflect"
 	"time"
 )

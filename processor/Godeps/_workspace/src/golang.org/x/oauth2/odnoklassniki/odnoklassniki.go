@@ -6,7 +6,7 @@
 package odnoklassniki
 
 import (
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2"
 )
 
 // Endpoint is Odnoklassniki's OAuth 2.0 endpoint.

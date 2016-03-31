@@ -1,11 +1,11 @@
 package main
 
 import (
-	"chaos-galago/processor/Godeps/_workspace/src/chaos-galago/shared/utils"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/cloudfoundry-community/go-cfclient"
-	"chaos-galago/processor/utils"
 	"database/sql"
 	"fmt"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/chaos-galago/shared/utils"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/cloudfoundry-community/go-cfclient"
+	"github.com/FidelityInternational/chaos-galago/processor/utils"
 	"os"
 	"strconv"
 	"time"

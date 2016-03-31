@@ -20,16 +20,16 @@ import (
 	"strings"
 	"time"
 
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/codelocation"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/failer"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/remote"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/suite"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/testingtproxy"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/writer"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters/stenographer"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/codelocation"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/failer"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/remote"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/suite"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/testingtproxy"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/writer"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters/stenographer"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 )
 
 const GINKGO_VERSION = config.VERSION

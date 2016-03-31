@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"reflect"
 
-	. "chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/types"
+	. "github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/types"
 	"github.com/golang/protobuf/proto"
 )
 

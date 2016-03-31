@@ -4,15 +4,15 @@ import (
 	"math/rand"
 	"time"
 
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/containernode"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/failer"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/leafnodes"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/spec"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/specrunner"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/writer"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/containernode"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/failer"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/leafnodes"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/spec"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/specrunner"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/writer"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/reporters"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 )
 
 type ginkgoTestingT interface {

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
 	"flag"
 	"fmt"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/config"
 )
 
 func BuildVersionCommand() *Command {

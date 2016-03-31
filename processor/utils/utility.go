@@ -1,13 +1,13 @@
 package utils
 
 import (
-	"chaos-galago/processor/Godeps/_workspace/src/chaos-galago/shared/model"
-	"chaos-galago/processor/Godeps/_workspace/src/chaos-galago/shared/utils"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/cloudfoundry-community/go-cfclient"
-	"chaos-galago/processor/model"
 	"database/sql"
 	"encoding/json"
 	"fmt"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/chaos-galago/shared/model"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/chaos-galago/shared/utils"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/cloudfoundry-community/go-cfclient"
+	"github.com/FidelityInternational/chaos-galago/processor/model"
 	"math/rand"
 	"os"
 	"strconv"

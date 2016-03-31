@@ -1,10 +1,10 @@
 package sharedUtils_test
 
 import (
-	"chaos-galago/shared/model"
-	"chaos-galago/shared/utils"
 	"fmt"
 	"github.com/DATA-DOG/go-sqlmock"
+	"github.com/FidelityInternational/chaos-galago/shared/model"
+	"github.com/FidelityInternational/chaos-galago/shared/utils"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"os"

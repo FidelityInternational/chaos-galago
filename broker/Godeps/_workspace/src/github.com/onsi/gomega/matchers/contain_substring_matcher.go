@@ -1,8 +1,8 @@
 package matchers
 
 import (
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/format"
 	"fmt"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/gomega/format"
 	"strings"
 )
 

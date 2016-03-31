@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/net/context"
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2/internal"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2/internal"
 )
 
 // expiryDelta determines how earlier a token should be considered

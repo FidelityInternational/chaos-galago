@@ -1,13 +1,13 @@
 package utils_test
 
 import (
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/DATA-DOG/go-sqlmock"
-	"chaos-galago/processor/Godeps/_workspace/src/github.com/cloudfoundry-community/go-cfclient"
-	. "chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo"
-	. "chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega"
-	"chaos-galago/processor/model"
-	"chaos-galago/processor/utils"
 	"fmt"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/DATA-DOG/go-sqlmock"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/cloudfoundry-community/go-cfclient"
+	. "github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/ginkgo"
+	. "github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega"
+	"github.com/FidelityInternational/chaos-galago/processor/model"
+	"github.com/FidelityInternational/chaos-galago/processor/utils"
 	"math/rand"
 	"os"
 	"time"

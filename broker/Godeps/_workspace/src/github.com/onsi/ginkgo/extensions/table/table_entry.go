@@ -3,7 +3,7 @@ package table
 import (
 	"reflect"
 
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo"
 )
 
 /*

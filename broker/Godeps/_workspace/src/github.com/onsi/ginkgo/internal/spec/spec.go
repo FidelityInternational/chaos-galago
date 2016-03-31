@@ -5,9 +5,9 @@ import (
 	"io"
 	"time"
 
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/containernode"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/leafnodes"
-	"chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/containernode"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/internal/leafnodes"
+	"github.com/FidelityInternational/chaos-galago/broker/Godeps/_workspace/src/github.com/onsi/ginkgo/types"
 )
 
 type Spec struct {

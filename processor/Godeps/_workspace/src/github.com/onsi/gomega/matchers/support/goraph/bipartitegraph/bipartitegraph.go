@@ -3,8 +3,8 @@ package bipartitegraph
 import "errors"
 import "fmt"
 
-import . "chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/matchers/support/goraph/node"
-import . "chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/matchers/support/goraph/edge"
+import . "github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/matchers/support/goraph/node"
+import . "github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/github.com/onsi/gomega/matchers/support/goraph/edge"
 
 type BipartiteGraph struct {
 	Left  NodeOrderedSet

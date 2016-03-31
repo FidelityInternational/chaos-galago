@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2"
-	"chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2/jwt"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2"
+	"github.com/FidelityInternational/chaos-galago/processor/Godeps/_workspace/src/golang.org/x/oauth2/jwt"
 	"google.golang.org/cloud/compute/metadata"
 )
 
