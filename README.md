@@ -103,7 +103,7 @@ DB_HOST='database_hostname_or_ip' \
 DB_PORT='database_port' \
 DB_USERNAME='a_database_user' \
 DB_PASSWORD='a_database_user_password' \
-CF_SKIPSSLVALIDATION=true
+CF_SKIPSSLVALIDATION=true \
 CF_USERNAME='a_cf_user' \
 CF_PASSWORD='a_cf_user_password' \
 deploy.sh
@@ -115,7 +115,7 @@ Example deploy with managed database
 CF_SYS_DOMAIN='system_domain.example.com' \
 CF_DEPLOY_USERNAME='an_admin_user' \
 CF_DEPLOY_PASSWORD='an_admin_user_password' \
-CF_SKIPSSLVALIDATION=true
+CF_SKIPSSLVALIDATION=true \
 CF_USERNAME='a_cf_user' \
 CF_PASSWORD='a_cf_user_password' \
 deploy.sh --managed-db
