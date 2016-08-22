@@ -5,7 +5,7 @@
     "description": "Provides the ability to cause chaos on bound application instances",
     "bindable": true,
     "plans": [{
-      "id": "default",
+      "id": "62d4a872-2582-3215-7960-6419heck852j",
       "name": "default",
       "description": "The default and only plan",
       "metadata": {
