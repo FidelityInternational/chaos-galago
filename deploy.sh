@@ -37,8 +37,9 @@ else
   cf uups cf-service -p "{\"domain\":\"$CF_SYS_DOMAIN\",\"skipsslvalidation\":$CF_SKIPSSLVALIDATION,\"username\":\"$CF_USERNAME\",\"password\":\"$CF_PASSWORD\"}"
 fi
 echo "Deploying apps..."
-deployed_domain=$(cf app chaos-galago-broker | grep urls | cut -d":" -f2 | xargs)
 if [[ "$(cf app chaos-galago-broker || true)" == *"FAILED"* ]] ; then
+  cf push
+else
   echo "Zero downtime deploying chaos-galago-broker..."
   domain=$(cf app chaos-galago-broker | grep urls | cut -d":" -f2 | xargs | cut -d"." -f 2-)
   cf push -f manifest-green.yml
@@ -47,9 +48,8 @@ if [[ "$(cf app chaos-galago-broker || true)" == *"FAILED"* ]] ; then
   cf rename chaos-galago-broker-green chaos-galago-broker
   cf unmap-route chaos-galago-broker "$domain" -n chaos-galago-broker-green
   cf push chaos-galago-processor
-else
-  cf push
 fi
+deployed_domain=$(cf app chaos-galago-broker | grep urls | cut -d":" -f2 | xargs)
 echo "Adding as CF Service Broker..."
 if [[ "$(cf create-service-broker chaos-galago admin not_secured "https://$deployed_domain" || true)" == *"FAILED"* ]] ; then
   cf update-service-broker chaos-galago admin not_secured "https://$deployed_domain"
