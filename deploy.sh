@@ -41,7 +41,7 @@ if [[ "$(cf app chaos-galago-broker || true)" == *"FAILED"* ]] ; then
   cf push
 else
   echo "Zero downtime deploying chaos-galago-broker..."
-  domain=$(cf app chaos-galago-broker | grep urls | cut -d":" -f2 | xargs | cut -d"." -f 2-)
+  domain="$CF_SYS_DOMAIN"
   cf push -f manifest-green.yml
   cf map-route chaos-galago-broker-green "$domain" -n chaos-galago-broker
   cf delete chaos-galago-broker -f
@@ -51,6 +51,7 @@ else
 fi
 deployed_domain=$(cf app chaos-galago-broker | grep urls | cut -d":" -f2 | xargs)
 echo "Adding as CF Service Broker..."
+deployed_domain=$(cf app chaos-galago-broker | grep urls | cut -d":" -f2 | xargs)
 if [[ "$(cf create-service-broker chaos-galago admin not_secured "https://$deployed_domain" || true)" == *"FAILED"* ]] ; then
   cf update-service-broker chaos-galago admin not_secured "https://$deployed_domain"
 fi
