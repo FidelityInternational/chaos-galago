@@ -9,4 +9,4 @@ applications:
   - chaos-galago-db
   env:
     GOVERSION: go1.8
-    GOPACKAGENAME: FidelityInternational/chaos-galago/broker
+    GOPACKAGENAME: github.com/FidelityInternational/chaos-galago/broker
