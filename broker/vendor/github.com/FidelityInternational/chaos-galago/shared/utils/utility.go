@@ -85,7 +85,7 @@ func GetDBConnectionDetails() (string, error) {
 	if nil == hostname {
 		hostname = service.Credentials["hostname"]
 	}
-	
+
 	database := service.Credentials["database"]
 	if nil == database {
 		database = service.Credentials["name"]
