@@ -7,6 +7,9 @@ applications:
   path: broker
   services:
   - chaos-galago-db
+  env:
+    GOVERSION: go1.8
+    GOPACKAGENAME: FidelityInternational/chaos-galago/broker
 - name: chaos-galago-processor
   memory: 20M
   disk_quota: 50M
@@ -17,3 +20,6 @@ applications:
   services:
   - chaos-galago-db
   - cf-service
+  env:
+    GOVERSION: go1.8
+    GOPACKAGENAME: FidelityInternational/chaos-galago/processor

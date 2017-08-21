@@ -7,3 +7,6 @@ applications:
   path: broker
   services:
   - chaos-galago-db
+  env:
+    GOVERSION: go1.8
+    GOPACKAGENAME: FidelityInternational/chaos-galago/broker
