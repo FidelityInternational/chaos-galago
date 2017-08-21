@@ -91,16 +91,16 @@ var _ = Describe("#ProvisionDataFromRequest", func() {
 })
 
 var _ = Describe("#WriteResponse", func() {
-	Context("When the object can be marhaled into JSON", func() {
+	Context("When the object cannot be marhaled into JSON", func() {
 		It("Raises an error 500", func() {
 			mockRecorder := httptest.NewRecorder()
-			exampleObject := make(map[int]string)
+			exampleObject := make(chan int)
 			utils.WriteResponse(mockRecorder, 200, exampleObject)
 			Expect(mockRecorder.Code).To(Equal(500))
 		})
 	})
 
-	Context("When the object cannot be marhaled into JSON", func() {
+	Context("When the object can be marhaled into JSON", func() {
 		It("Returns a 200 response with body", func() {
 			mockRecorder := httptest.NewRecorder()
 			exampleObject := model.CreateServiceInstanceResponse{DashboardURL: "example.com", Probability: 0.2, Frequency: 5}
