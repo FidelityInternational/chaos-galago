@@ -57,9 +57,16 @@ func SetupInstanceDB(db *sql.DB) error {
 		id varchar(255),
 		dashboardURL varchar(255),
 		planID varchar(255),
-		probability decimal(2,2),
+		probability decimal(4,2),
 		frequency int
 	)`)
+
+	if err != nil {
+		fmt.Println(err)
+		return err
+	}
+
+	_, err = db.Exec(`ALTER TABLE service_instances ALTER COLUMN probability decimal(4,2)`)
 
 	if err != nil {
 		fmt.Println(err)

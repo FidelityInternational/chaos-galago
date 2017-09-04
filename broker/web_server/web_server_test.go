@@ -46,6 +46,7 @@ func mockFailedBindingDBConn(driverName string, connectionString string) (*sql.D
 		os.Exit(1)
 	}
 	mock.ExpectExec("CREATE TABLE IF NOT EXISTS service_instances.*").WillReturnResult(sqlmock.NewResult(1, 1))
+	mock.ExpectExec("ALTER TABLE service_instances.*").WillReturnResult(sqlmock.NewResult(1, 1))
 	mock.ExpectExec("CREATE TABLE IF NOT EXISTS service_bindings.").WillReturnError(fmt.Errorf("An error has occured: %s", "Database Create Error"))
 	return db, err
 }
@@ -57,6 +58,7 @@ func mockDBConn(driverName string, connectionString string) (*sql.DB, error) {
 		os.Exit(1)
 	}
 	mock.ExpectExec("CREATE TABLE IF NOT EXISTS service_instances.*").WillReturnResult(sqlmock.NewResult(1, 1))
+	mock.ExpectExec("ALTER TABLE service_instances.*").WillReturnResult(sqlmock.NewResult(1, 1))
 	mock.ExpectExec("CREATE TABLE IF NOT EXISTS service_bindings.*").WillReturnResult(sqlmock.NewResult(1, 1))
 	return db, err
 }

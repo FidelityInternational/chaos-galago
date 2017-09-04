@@ -230,7 +230,7 @@ var _ = Describe("#DeleteServiceInstance", func() {
 			}
 			defer db.Close()
 
-			probability := 0.2
+			probability := 1.0
 			frequency := 5
 			planID := "default"
 			instanceID := "test"
@@ -438,6 +438,7 @@ var _ = Describe("#SetupInstanceDB", func() {
 			defer db.Close()
 
 			mock.ExpectExec("CREATE TABLE").WillReturnResult(sqlmock.NewResult(1, 1))
+			mock.ExpectExec("ALTER TABLE").WillReturnResult(sqlmock.NewResult(1, 1))
 			Expect(utils.SetupInstanceDB(db)).To(BeNil())
 		})
 	})
@@ -452,6 +453,7 @@ var _ = Describe("#SetupInstanceDB", func() {
 			defer db.Close()
 
 			mock.ExpectExec("CREATE TABLE").WillReturnResult(sqlmock.NewResult(1, 1))
+			mock.ExpectExec("ALTER TABLE").WillReturnResult(sqlmock.NewResult(1, 1))
 			Expect(utils.SetupInstanceDB(db)).To(BeNil())
 		})
 	})
