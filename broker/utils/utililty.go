@@ -66,7 +66,7 @@ func SetupInstanceDB(db *sql.DB) error {
 		return err
 	}
 
-	_, err = db.Exec(`ALTER TABLE service_instances ALTER COLUMN probability decimal(4,2)`)
+	_, err = db.Exec(`ALTER TABLE service_instances MODIFY COLUMN probability decimal(4,2)`)
 
 	if err != nil {
 		fmt.Println(err)
